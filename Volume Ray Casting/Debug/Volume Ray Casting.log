@@ -1,0 +1,15 @@
+﻿  main.cpp
+c:\projects\c++\visual studio\volume ray casting\volume ray casting\main.cpp(114): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\projects\c++\visual studio\volume ray casting\volume ray casting\main.cpp(116): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\projects\c++\visual studio\volume ray casting\volume ray casting\main.cpp(118): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\projects\c++\visual studio\volume ray casting\volume ray casting\main.cpp(119): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\projects\c++\visual studio\volume ray casting\volume ray casting\main.cpp(154): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\projects\c++\visual studio\volume ray casting\volume ray casting\main.cpp(155): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\projects\c++\visual studio\volume ray casting\volume ray casting\main.cpp(159): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\projects\c++\visual studio\volume ray casting\volume ray casting\main.cpp(160): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\projects\c++\visual studio\volume ray casting\volume ray casting\main.cpp(161): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\projects\c++\visual studio\volume ray casting\volume ray casting\main.cpp(162): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\projects\c++\visual studio\volume ray casting\volume ray casting\main.cpp(201): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\projects\c++\visual studio\volume ray casting\volume ray casting\main.cpp(304): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Volume Ray Casting.vcxproj -> C:\Projects\C++\Visual Studio\Volume Ray Casting\Debug\Volume Ray Casting.exe
+  Volume Ray Casting.vcxproj -> C:\Projects\C++\Visual Studio\Volume Ray Casting\Debug\Volume Ray Casting.pdb (Partial PDB)
