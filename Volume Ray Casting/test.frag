@@ -81,29 +81,29 @@ float distScene(vec3 p) {
 	// Sphere
 	 //vec3 is a translation
 	//return length(translate(p, vec3(0, -.5, 0))) - .5;
-	//return length(p) - .5;
+	// return length(p) - .5;
 
 	// repeated spheres
-	//float c = 2;		// distance?
-	//p.x = mod(p.x, 1 * c) - .5 * c;
-	//p.y = mod(p.y, 1 * c) - .5 * c;
-	//p.z = mod(p.z, 1 * c) - .5 * c;
-	//return length(p) - .5f;
+	// float c = 2;		// distance?
+	// p.x = mod(p.x, 1 * c) - .5 * c;
+	// p.y = mod(p.y, 1 * c) - .5 * c;
+	// p.z = mod(p.z, 1 * c) - .5 * c;
+	// return length(p) - .5f;
 	
 	// Psychedelic
 	// V1
-	//p.x = mod(-abs(p.x), 1) - 1;
-	//p.y = mod(-abs(p.y), 1) - 1;
-	//p.z = mod(-abs(p.z), 1) - 1;
-	//return length(p) - .5;
+	// p.x = mod(-abs(p.x), 1) - 1;
+	// p.y = mod(-abs(p.y), 1) - 1;
+	// p.z = mod(-abs(p.z), 1) - 1;
+	// return length(p) - .5;
 	// V2
-	//p.x = mod(p.x, 1) - 1;
-	//p.y = mod(p.y, 1) - 1;
-	//p.z = mod(p.z, 1) - 1;
-	//return length(p) - .5;
+	p.x = mod(p.x, 1) - 1;
+	p.y = mod(p.y, 1) - 1;
+	p.z = mod(p.z, 1) - 1;
+	return length(p) - .5;
 
 	// Box (twist)
-	return sdBox(rotateY(p, p.y), vec3(1, 3, 2));
+	// return sdBox(rotateY(p, p.y), vec3(1, 3, 2));
 
 }
 
